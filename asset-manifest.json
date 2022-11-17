@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Penny-Pincher/static/css/main.0900a372.css",
-    "main.js": "/Penny-Pincher/static/js/main.852c67c6.js",
+    "main.js": "/Penny-Pincher/static/js/main.d84e5dee.js",
     "index.html": "/Penny-Pincher/index.html",
     "main.0900a372.css.map": "/Penny-Pincher/static/css/main.0900a372.css.map",
-    "main.852c67c6.js.map": "/Penny-Pincher/static/js/main.852c67c6.js.map"
+    "main.d84e5dee.js.map": "/Penny-Pincher/static/js/main.d84e5dee.js.map"
   },
   "entrypoints": [
     "static/css/main.0900a372.css",
-    "static/js/main.852c67c6.js"
+    "static/js/main.d84e5dee.js"
   ]
 }
