@@ -29,6 +29,7 @@ const ExpenseSection = (props) => {
             ></input>
             <button
               type="submit"
+              className="add-button"
               onClick={(e) => {
                 props.clickedAddButton(e);
               }}

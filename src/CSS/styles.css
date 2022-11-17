@@ -153,9 +153,8 @@ span {
      font-family: "Montserrat", sans-serif;
      width: 90%;
      color: white;
-     margin: 0 1rem 10rem 1rem;
+     margin: 0 1rem 7rem 1rem;
      background-color: black;
-     /* justify-content: baseline; */
      align-items: center;
      padding: 30px 0;
      border-radius: 20px;
@@ -232,7 +231,7 @@ span {
      }
 
      .balanceSection {
-          margin: 1rem auto 10rem auto;
+          margin: 1rem auto 7rem auto;
           width: 80%;
      }
 
