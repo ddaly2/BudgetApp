@@ -35,8 +35,7 @@ const IncomeSection = (props) => {
               onClick={(e) => {
                 props.clickedAddButton(e);
               }}
-            >
-              +
+            >+
             </button>
             <button
               type="submit"

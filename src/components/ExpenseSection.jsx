@@ -13,7 +13,7 @@ const ExpenseSection = (props) => {
                   <li key={index} className="listItem">
                     $ {value}
                   </li>,
-                  <button type="submit" onClick={() => {
+                  <button type="submit" id="deleteButton" onClick={() => {
                     props.onDelete(index);
                   }} >-</button>
                 ]))}
@@ -33,8 +33,7 @@ const ExpenseSection = (props) => {
               onClick={(e) => {
                 props.clickedAddButton(e);
               }}
-            >
-              +
+            >+
             </button>
             <button
               type="submit"
