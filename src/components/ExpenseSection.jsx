@@ -12,10 +12,11 @@ const ExpenseSection = (props) => {
                 {props.list.map((value, index) => ([
                   <li key={index} className="listItem">
                     $ {value}
-                  </li>,
-                  <button type="submit" id="deleteButton" onClick={() => {
+                    <p> </p>
+                    <button type="submit" id="deleteButton" onClick={() => {
                     props.onDelete(index);
                   }} >-</button>
+                  </li>
                 ]))}
               </ul>
             </div>

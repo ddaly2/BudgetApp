@@ -11,11 +11,13 @@ const IncomeSection = (props) => {
               <ul>
                 {props.list.map((value, index) => ([
                   <li key={index} id={index} className="listItem">
-                    $ {value}
-                  </li>,
-                  <button id="deleteButton" name={index} type="submit" onClick={() => {
+                    $ {value} 
+                    <p> </p>
+                    <button id="deleteButton" name={index} type="submit" onClick={() => {
                     props.onDelete(index);
                   }}>-</button>
+                  </li>
+                  
                   
 
                 ]))}

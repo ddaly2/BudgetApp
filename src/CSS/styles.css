@@ -32,6 +32,12 @@ span {
      color: lightgreen;
 }
 
+ul {
+     display: grid;
+     align-items: center;
+     justify-items: center;
+}
+
 .heading{
      font-family: 'Montserrat', sans-serif;
      color: white;
